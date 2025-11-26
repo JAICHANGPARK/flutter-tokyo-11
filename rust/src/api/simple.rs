@@ -75,14 +75,14 @@ fn heavy_image_logic(image_data: Vec<u8>) -> Vec<u8> {
     result
 }
 
-// ✅ [Safe] 비동기 함수 (기본)
+// [Safe] 비동기 함수 (기본)
 // Dart에서는 Future<Uint8List>를 반환합니다.
 // Rust 스레드 풀에서 실행되므로 UI를 막지 않습니다.
 pub fn apply_filter_async(image_data: Vec<u8>) -> Vec<u8> {
     heavy_image_logic(image_data)
 }
 
-// ❌ [Danger] 동기 함수 (강제)
+// [Danger] 동기 함수 (강제)
 // Dart 메인 스레드가 이 함수를 직접 호출하고, 끝날 때까지 기다립니다.
 // Thread Merge 환경에서 이걸 쓰면 앱이 죽습니다.
 #[frb(sync)]
