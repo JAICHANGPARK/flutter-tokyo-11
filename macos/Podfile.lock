@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - rust_lib_flutter_thread_merge (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - rust_lib_flutter_thread_merge (from `Flutter/ephemeral/.symlinks/plugins/rust_lib_flutter_thread_merge/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  rust_lib_flutter_thread_merge:
+    :path: Flutter/ephemeral/.symlinks/plugins/rust_lib_flutter_thread_merge/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  rust_lib_flutter_thread_merge: f1aa3460c3518d766d47355ee7af462f01049a5d
+
+PODFILE CHECKSUM: 9ebaf0ce3d369aaa26a9ea0e159195ed94724cf3
+
+COCOAPODS: 1.16.2
