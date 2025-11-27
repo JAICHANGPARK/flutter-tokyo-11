@@ -2,7 +2,7 @@
 
 [Slide](https://speakerdeck.com/itsmedreamwalker/flutter-thread-merge-flutter-tokyo-number-11)
 
-## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
